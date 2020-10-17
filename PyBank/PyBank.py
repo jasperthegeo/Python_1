@@ -9,7 +9,7 @@ income_delta_arr =[]
 
 
 
-csvpath = ("Resources/budget_data.csv")
+csvpath = ("PyBank/Resources/budget_data.csv")
 
 with open (csvpath,'r', encoding='utf-8') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
